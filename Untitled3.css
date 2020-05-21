@@ -1,0 +1,94 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    font-size:16px;
+    color:#fff;
+    font-family: 'Oxygen', sans-serif;
+    background:grey;
+}
+#head
+{
+    border:0;
+    border-radius: 0;
+    
+}
+
+.navbar-brand
+{
+    padding-top: 25px;
+}
+.navbar-brand h1
+{
+    
+    font-family: 'Lora', serif;
+    font-size:1.6em;
+    color:#557c3e;
+    font-weight:700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+.navbar-brand a:hover,navbar-brand a:focus
+{
+    text-decoration: none;
+}
+.navbar-brand p
+{
+    color:#000;
+    text-transform: uppercase;
+    font-size:0.8em;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+.navbar-toggler,.navbar-toggler .navbar-toggler-icon
+{
+    border:1px solid #61122f;
+}
+.mar
+{
+    border:2px solid black;
+    margin:10px;
+}
+@media screen and (max-width:767px)
+{
+   
+    .navbar-brand h1
+    {
+        font-size:1.3em;
+    }
+    .navbar-brand p
+    {
+        font-size:0.6em;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+   
+    .navbar-brand h1
+    {
+        font-size:1.3em;
+    }
+    .navbar-brand p
+    {
+        font-size:0.6em;
+    }
+}
+    @media screen and (min-width:992px) and (max-width:1200px)
+{
+    .navbar-brand h1
+    {
+        font-size:1.3em;
+    }
+    .navbar-brand p
+    {
+        font-size:0.6em;
+    }
+    
+}
